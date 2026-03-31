@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-summit-roof-pros.dream-surge.com/sitemap-index.xml

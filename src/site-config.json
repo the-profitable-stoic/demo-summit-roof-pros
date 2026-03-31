@@ -1,0 +1,686 @@
+{
+  "business": {
+    "name": "Summit Roof Pros",
+    "phone": "(303) 555-0199",
+    "category": "roofing",
+    "city": "Denver",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-mountain-bold",
+      "categoryGroup": "roofing",
+      "name": "Mountain Bold",
+      "recipeFile": "roofing/mountain-bold.astro",
+      "colors": {
+        "primary": "#1A3A52",
+        "primaryDark": "#0F2436",
+        "primaryLight": "#C8DDE8",
+        "secondary": "#2D5F7C",
+        "accent": "#FFC600",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1A3A52",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Denver's Trusted Roofing Experts",
+      "heroSubline": "Protecting your home from Colorado's harsh weather starts with a strong roof. Summit Roof Pros delivers reliable roofing solutions tailored to Denver's unique climate.",
+      "aboutTitle": "Rooted in Denver, Built on Trust",
+      "aboutText": [
+        "Founded in 2012, Summit Roof Pros began as a small family-owned business serving Capitol Hill and Park Hill. Today, we've grown to become one of Denver's most trusted roofing contractors, combining local expertise with personalized service.",
+        "We approach every project with meticulous attention to detail, using only premium materials suited for Colorado's extreme weather. Our team takes pride in transparent communication and leaving every job site cleaner than we found it.",
+        "As proud members of the Denver community, we sponsor local youth sports teams and volunteer with Habitat for Humanity. When you choose us, you're supporting a business that gives back to the neighborhoods we serve."
+      ],
+      "valueProps": [
+        {
+          "title": "Weather-Proven Materials",
+          "description": "We use roofing materials specifically tested to withstand Denver's hail storms and freeze-thaw cycles."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "Our team understands the unique roofing needs of Denver's historic homes and modern constructions alike."
+        },
+        {
+          "title": "Storm Response Team",
+          "description": "Available 24/7 when severe weather hits, with quick damage assessments and temporary repairs."
+        },
+        {
+          "title": "No-Pressure Consultations",
+          "description": "Honest evaluations with clear explanations about what your roof needs - nothing more."
+        }
+      ],
+      "ctaHeadline": "Ready for a Roof That Stands Up to Colorado?",
+      "ctaSubline": "Schedule your free inspection today and experience the Summit Roof Pros difference."
+    },
+    "services": [
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Complete roof systems designed for Denver's punishing weather patterns.",
+        "description": "When Colorado's hail storms and freeze-thaw cycles have taken their toll, a full roof replacement becomes necessary to properly protect your home. We specialize in complete tear-offs and installations that address Denver's specific challenges.\n\nFor historic homes in neighborhoods like Capitol Hill, we carefully preserve architectural details while upgrading underlying structures. On mid-century ranch homes common in Arvada, we reinforce roof decks to handle heavy snow loads. Modern homes in Highlands Ranch receive energy-efficient solutions that complement their contemporary designs.\n\nOur process begins with a thorough inspection of your roof deck, flashing, and ventilation. We then recommend materials proven in our climate - impact-resistant shingles for hail protection, reinforced underlayment for water resistance, and proper ventilation to prevent ice dams. The entire project typically takes 2-3 days with minimal disruption to your daily life.",
+        "process": [
+          "Step 1: Detailed inspection of existing roof structure and measurement",
+          "Step 2: Removal of old roofing materials with careful debris containment",
+          "Step 3: Repair or replacement of damaged decking and flashing",
+          "Step 4: Installation of new roofing system with manufacturer-certified techniques"
+        ],
+        "benefits": [
+          "Extended lifespan with materials rated for Colorado weather",
+          "Improved energy efficiency and temperature regulation",
+          "Enhanced curb appeal with architectural shingle options",
+          "Increased home value with transferable warranties"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need a full replacement versus repairs?",
+            "answer": "We recommend replacement when we find multiple failing components, widespread damage, or when repairs would exceed 50% of replacement cost. For Denver homes over 20 years old, replacement often makes more financial sense long-term."
+          },
+          {
+            "question": "What roofing materials work best in Denver?",
+            "answer": "Impact-resistant asphalt shingles (Class 4 rated) provide excellent hail protection. For flat roofs common on commercial properties, we recommend modified bitumen or TPO membranes that withstand temperature extremes."
+          },
+          {
+            "question": "Will you handle permits for my roof replacement?",
+            "answer": "Yes, we obtain all required permits from Denver or your local municipality and handle final inspections. Permit requirements vary between cities like Aurora and Lakewood, which we navigate for you."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-repair",
+        "name": "Storm Damage Repair",
+        "shortDescription": "Rapid response to hail, wind, and snow damage across the Front Range.",
+        "description": "Colorado's sudden hailstorms and powerful wind events can leave roofs with immediate damage that worsens over time. Our storm response team specializes in assessing and repairing weather-related damage throughout the Denver metro area.\n\nWhen hail hits neighborhoods like Wash Park or RiNo, we prioritize emergency tarping to prevent water intrusion. For wind-damaged shingles in Lakewood's foothills communities, we perform careful matching of existing materials. We work directly with insurance companies to document all storm-related damage and streamline claims processing.\n\nOur repair approach focuses on restoring your roof's integrity while maintaining its original weather resistance. We replace damaged sections with precision, ensuring new materials blend seamlessly with the existing roof. For historic districts like Littleton's downtown, we source period-appropriate materials when available.",
+        "process": [
+          "Step 1: Emergency tarping if active leaks are present",
+          "Step 2: Detailed damage documentation for insurance claims",
+          "Step 3: Careful removal of compromised materials",
+          "Step 4: Precision installation of matching replacement materials"
+        ],
+        "benefits": [
+          "24/7 emergency response team",
+          "Insurance claim assistance",
+          "Color-matched material replacements",
+          "Prevention of secondary water damage"
+        ],
+        "faq": [
+          {
+            "question": "How quickly should I get my roof inspected after a storm?",
+            "answer": "Within 14 days is ideal, as some insurance policies have reporting deadlines. Early inspection also prevents small problems from becoming major leaks during the next storm."
+          },
+          {
+            "question": "Will my insurance cover all storm damage repairs?",
+            "answer": "Most policies cover hail and wind damage, but coverage depends on your deductible and policy terms. We provide thorough documentation to support your claim and can meet with adjusters."
+          },
+          {
+            "question": "Can small hail damage be repaired without full replacement?",
+            "answer": "Yes, when damage is limited to a few areas, we can often replace individual shingles or sections. We'll advise if repairs would compromise the roof's overall performance."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-roofing",
+        "name": "Commercial Roofing",
+        "shortDescription": "Durable roofing solutions for Denver-area businesses and multi-family properties.",
+        "description": "Denver's commercial properties face unique roofing challenges from heavy foot traffic to expansive flat roof surfaces. We specialize in commercial roofing systems that deliver long-term performance for office buildings, retail centers, and apartment complexes throughout the metro area.\n\nFor LoDo's historic commercial buildings, we preserve architectural integrity while upgrading to modern, energy-efficient systems. Aurora's growing business parks benefit from our TPO membrane installations that reflect summer heat. We understand the importance of minimizing business disruption, scheduling work during off-hours when needed.\n\nOur commercial services include routine maintenance programs tailored to your roof type. These proactive inspections catch small issues before they become costly problems, especially important before Denver's harsh winter months. We also handle all warranty documentation and can coordinate with property managers on multi-phase projects.",
+        "process": [
+          "Step 1: Comprehensive evaluation of current roof condition",
+          "Step 2: Custom system design meeting budget and performance needs",
+          "Step 3: Careful installation with minimal business disruption",
+          "Step 4: Ongoing maintenance program implementation"
+        ],
+        "benefits": [
+          "Systems designed for Denver's temperature extremes",
+          "Minimized business interruption during installation",
+          "Preventative maintenance programs available",
+          "Energy-efficient options to reduce cooling costs"
+        ],
+        "faq": [
+          {
+            "question": "What commercial roofing materials work best in Denver?",
+            "answer": "TPO membranes offer excellent UV resistance for our sunny climate, while modified bitumen provides superior durability for high-traffic areas. We recommend materials based on your building's specific needs."
+          },
+          {
+            "question": "How often should commercial roofs be inspected?",
+            "answer": "Twice annually - before winter and after spring hail season - helps identify potential issues early. Properties with trees nearby may need more frequent gutter cleaning as well."
+          },
+          {
+            "question": "Can you work around our business hours?",
+            "answer": "Absolutely. We schedule after-hours and weekend work when needed, and can phase projects to minimize impact on your operations."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-installation",
+        "name": "Gutter Installation",
+        "shortDescription": "Heavy-duty gutter systems that handle Colorado's intense downpours and snowmelt.",
+        "description": "Proper gutter systems are essential for protecting Denver homes from water damage, especially during our intense spring storms and rapid snowmelt. We design and install gutter systems that effectively channel water away from your foundation while complementing your home's architecture.\n\nFor Victorian homes in historic districts, we offer period-appropriate half-round gutters with concealed hangers. Modern homes in Highlands Ranch benefit from oversized 6-inch gutters that handle heavy rainfall. We pay special attention to proper slope and downspout placement to prevent ice buildup in winter.\n\nOur installation process includes careful evaluation of your roof's water flow patterns. We reinforce fascia boards when needed and extend downspouts at least 5 feet from your foundation - crucial for Denver's clay soils that are prone to foundation movement. All our gutter systems include debris guards to reduce maintenance in our tree-lined neighborhoods.",
+        "process": [
+          "Step 1: Assessment of water runoff patterns and fascia condition",
+          "Step 2: Custom sizing and material selection",
+          "Step 3: Precise installation with reinforced hangers",
+          "Step 4: Downspout placement optimization"
+        ],
+        "benefits": [
+          "Reduced risk of basement flooding and foundation damage",
+          "Debris-resistant designs for tree-lined neighborhoods",
+          "Seamless integration with existing roof edges",
+          "Durable materials that withstand freeze-thaw cycles"
+        ],
+        "faq": [
+          {
+            "question": "What gutter materials work best in Denver?",
+            "answer": "Aluminum gutters offer the best balance of durability and value, resisting our temperature extremes. Copper gutters provide superior longevity and develop a beautiful patina over time, ideal for historic homes."
+          },
+          {
+            "question": "How often should gutters be cleaned in Denver?",
+            "answer": "Twice annually - in late fall after leaves drop and in spring after tree pollen season. Homes under large trees may need quarterly cleaning."
+          },
+          {
+            "question": "Can gutters help prevent ice dams?",
+            "answer": "Properly installed gutters are part of the solution, but adequate attic insulation and ventilation are equally important. We evaluate all these factors during our assessment."
+          }
+        ]
+      },
+      {
+        "slug": "roof-inspection",
+        "name": "Roof Inspection",
+        "shortDescription": "Comprehensive evaluations that uncover hidden damage before it becomes costly.",
+        "description": "Regular professional inspections are the best way to extend your roof's lifespan in Denver's challenging climate. Our thorough roof evaluations go beyond superficial checks, identifying potential issues before they lead to leaks or structural damage.\n\nWe pay special attention to problem areas common in Colorado homes: hail damage on south-facing slopes, flashing failures around chimneys, and ventilation issues that contribute to ice dams. For historic homes in neighborhoods like Park Hill, we check for deterioration of original materials. Newer homes receive assessments of shingle adhesion and proper installation techniques.\n\nEach inspection includes detailed documentation with photos of any concerns. We provide clear explanations of recommended repairs and timelines for addressing them. Our reports are insurance-ready, helping homeowners document storm damage claims. We also evaluate interior spaces like attics for signs of moisture intrusion that might not be visible from outside.",
+        "process": [
+          "Step 1: Exterior visual assessment from multiple angles",
+          "Step 2: Close-up examination of flashings, vents, and penetrations",
+          "Step 3: Attic inspection for ventilation and moisture issues",
+          "Step 4: Detailed report with photos and repair recommendations"
+        ],
+        "benefits": [
+          "Early detection of minor issues before they become major",
+          "Insurance documentation for storm damage claims",
+          "Peace of mind before severe weather seasons",
+          "Expert assessment of remaining roof lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get my roof inspected?",
+            "answer": "Annually is ideal, especially after hail season. Homes over 15 years old may benefit from semi-annual checks as materials near the end of their lifespan."
+          },
+          {
+            "question": "What's the difference between your inspection and a free insurance inspection?",
+            "answer": "Our inspections are more comprehensive, evaluating overall roof health rather than just storm damage. We'll identify wear patterns and potential future issues an insurance adjuster might miss."
+          },
+          {
+            "question": "Can you inspect my roof in winter?",
+            "answer": "Yes, though snow cover limits what we can assess. We can still check accessible areas and evaluate attic conditions year-round."
+          }
+        ]
+      },
+      {
+        "slug": "shingle-repair",
+        "name": "Shingle Repair",
+        "shortDescription": "Precision repairs that restore your roof's protection and appearance.",
+        "description": "Even minor shingle damage can compromise your roof's ability to protect your home from Colorado's weather. Our targeted repair services address specific problem areas with precision color-matching and proper installation techniques.\n\nFor missing or damaged shingles in Denver's wind-prone areas, we secure surrounding shingles while replacing compromised ones. Hail-damaged shingles receive careful evaluation - we only replace what's necessary to maintain your roof's integrity. On historic homes, we source or custom-cut replacement shingles to preserve architectural authenticity.\n\nEach repair begins with identifying the root cause - whether it's storm damage, improper installation, or normal wear. We then address both the symptom and underlying issue to prevent recurrence. Our repairs blend seamlessly with your existing roof, maintaining both function and curb appeal. We clean up thoroughly after every job, leaving your property as we found it.",
+        "process": [
+          "Step 1: Identification of damaged areas and underlying causes",
+          "Step 2: Removal of compromised shingles without disturbing sound ones",
+          "Step 3: Installation of color-matched replacement shingles",
+          "Step 4: Reinforcement of surrounding area to prevent future issues"
+        ],
+        "benefits": [
+          "Prevents small problems from becoming major leaks",
+          "Maintains your roof's weather resistance",
+          "Color-matched replacements for seamless appearance",
+          "Addresses root causes, not just symptoms"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my older shingles exactly?",
+            "answer": "We maintain an extensive inventory of shingle colors and styles common in Denver. For discontinued products, we can often source close matches or strategically place replacements for minimal visual impact."
+          },
+          {
+            "question": "How long do shingle repairs typically last?",
+            "answer": "Properly executed repairs should last as long as your remaining roof. We warranty all our repair work for 5 years against craftsmanship issues."
+          },
+          {
+            "question": "Will repaired areas be noticeable from the ground?",
+            "answer": "Our goal is invisible repairs. While brand new shingles may initially stand out slightly, they'll weather to match within a few months."
+          }
+        ]
+      },
+      {
+        "slug": "metal-roofing",
+        "name": "Metal Roofing",
+        "shortDescription": "Durable, energy-efficient metal roofs built for Colorado's climate.",
+        "description": "Metal roofing offers exceptional durability and energy efficiency for Denver homes, withstanding hail, wind, and heavy snow better than most materials. We specialize in metal roof installations that combine superior performance with aesthetic appeal.\n\nFor mountain-view homes in Lakewood, we install standing seam metal roofs that shed snow efficiently. Denver's historic districts benefit from metal shingles that replicate traditional materials with modern durability. We pay special attention to thermal expansion details crucial in our climate's temperature swings.\n\nOur metal roofing systems include specialized underlayments that prevent condensation - a common concern when transitioning from traditional roofs. We optimize panel lengths to minimize seams where snow and ice could penetrate. All installations include comprehensive manufacturer warranties that often outlast the homeowners themselves.",
+        "process": [
+          "Step 1: Structural evaluation to ensure proper support",
+          "Step 2: Custom panel fabrication for precise fit",
+          "Step 3: Installation of specialized underlayment system",
+          "Step 4: Careful panel placement with concealed fasteners"
+        ],
+        "benefits": [
+          "50+ year lifespan in Colorado conditions",
+          "Excellent hail resistance with Class 4 ratings",
+          "Energy savings from reflective surfaces",
+          "Fire resistance important in our dry climate"
+        ],
+        "faq": [
+          {
+            "question": "Is metal roofing noisy during rain or hail?",
+            "answer": "Properly installed with solid decking and insulation, metal roofs are no louder than other materials. Many customers report they're actually quieter during hail storms than traditional roofs."
+          },
+          {
+            "question": "Can metal roofing be installed over my existing roof?",
+            "answer": "In many cases yes, which reduces disposal costs. We evaluate your current roof's condition to ensure it provides a suitable base."
+          },
+          {
+            "question": "How does metal roofing handle Denver's snow?",
+            "answer": "Snow slides off metal roofs more easily than other materials, reducing load stress. We install snow guards where needed to prevent dangerous sliding onto walkways."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Aurora",
+        "slug": "aurora-co",
+        "state": "CO",
+        "content": "Serving Aurora homeowners since 2013, we understand the unique roofing needs of this expansive suburb. From the 1970s-80s developments in southeast Aurora to newer constructions near the Anschutz Medical Campus, we've worked on virtually every roof type in the city.\n\nAurora's position east of Denver makes it particularly vulnerable to hailstorms rolling off the plains. We've helped countless homeowners navigate insurance claims after severe weather events. Our team knows which materials perform best in Aurora's climate and which architectural styles require special consideration.",
+        "localContext": "Aurora's mix of mid-century and contemporary homes often need roof reinforcements for heavy snow loads and hail protection.",
+        "nearbyAreas": [
+          "Centennial",
+          "Parker",
+          "Commerce City"
+        ]
+      },
+      {
+        "city": "Lakewood",
+        "slug": "lakewood-co",
+        "state": "CO",
+        "content": "Lakewood's foothills location presents distinct roofing challenges we're uniquely equipped to handle. From the split-level homes near Green Mountain to the historic properties around Belmar, we adapt our approach to each neighborhood's needs.\n\nThe elevation changes throughout Lakewood create microclimates that affect roofing performance. West-facing slopes endure intense afternoon sun, while north-facing roofs accumulate more snow. We account for these factors in every installation and repair, ensuring your roof performs optimally in its specific location.",
+        "localContext": "Lakewood's varied elevations require customized roofing solutions for proper snow shedding and sun resistance.",
+        "nearbyAreas": [
+          "Golden",
+          "Wheat Ridge",
+          "Morrison"
+        ]
+      },
+      {
+        "city": "Arvada",
+        "slug": "arvada-co",
+        "state": "CO",
+        "content": "Arvada's charming ranch homes and growing new developments require roofing expertise that spans generations. We've preserved historic roofs in Olde Town while installing modern systems in the Candelas community.\n\nThe clay soils common in Arvada make proper water management crucial. We pay special attention to gutter systems and downspout placement to prevent foundation issues. Our familiarity with Arvada's building codes ensures smooth permitting for every project.",
+        "localContext": "Arvada's ranch-style homes often need roof evaluations as they reach 40-50 years old - prime time for replacement.",
+        "nearbyAreas": [
+          "Westminster",
+          "Broomfield",
+          "Northglenn"
+        ]
+      },
+      {
+        "city": "Littleton",
+        "slug": "littleton-co",
+        "state": "CO",
+        "content": "Littleton's mix of historic bungalows and modern luxury homes demands roofing expertise with both tradition and innovation. We're proud to help preserve the character of Main Street's historic district while meeting today's performance standards.\n\nThe mature trees throughout Littleton's neighborhoods create special considerations for roof maintenance. We design gutter systems that handle leaf litter and recommend regular cleaning schedules. Our storm response team is particularly active here after the area's frequent hail events.",
+        "localContext": "Littleton's historic homes often need careful material matching during repairs to maintain architectural integrity.",
+        "nearbyAreas": [
+          "Englewood",
+          "Sheridan",
+          "Ken Caryl"
+        ]
+      },
+      {
+        "city": "Highlands Ranch",
+        "slug": "highlands-ranch-co",
+        "state": "CO",
+        "content": "As Highlands Ranch has grown, we've kept pace with its evolving roofing needs. From the community's early 1990s homes to today's luxury estates, we understand the architectural trends and material preferences of local homeowners.\n\nThe planned nature of Highlands Ranch means many homes share similar designs and construction dates. This allows us to apply lessons from one project to benefit others nearby. We're familiar with the community's architectural guidelines and work within them for every installation.",
+        "localContext": "Highlands Ranch's relatively young housing stock is now reaching the age where original roofs need replacement or major repairs.",
+        "nearbyAreas": [
+          "Lone Tree",
+          "Roxborough Park",
+          "Castle Pines"
+        ]
+      },
+      {
+        "city": "Denver",
+        "slug": "denver-co",
+        "state": "CO",
+        "content": "As Denver natives, we know the city's roofing needs inside and out. From Victorian homes in Capitol Hill to modern lofts in RiNo, we've worked on every roof type Denver offers.\n\nThe city's rapid freeze-thaw cycles test roofs like few other climates. We specialize in systems that withstand these challenges while meeting historic district requirements where applicable. Our team navigates Denver's permitting process efficiently, getting your project started quickly.",
+        "localContext": "Denver's historic districts require special attention to preserve architectural details while upgrading roofing performance.",
+        "nearbyAreas": [
+          "Glendale",
+          "Cherry Hills Village",
+          "Edgewater"
+        ]
+      },
+      {
+        "city": "Centennial",
+        "slug": "centennial-co",
+        "state": "CO",
+        "content": "Centennial's diverse housing styles - from mid-century classics to contemporary masterpieces - require adaptable roofing expertise. We've served the community since its incorporation, building relationships with homeowners and businesses alike.\n\nThe area's proximity to open spaces means wind is a particular concern. We install roofs with enhanced wind resistance and recommend regular inspections after severe weather events. Our knowledge of local microclimates informs every material recommendation.",
+        "localContext": "Centennial's newer homes often benefit from energy-efficient roofing options that reduce cooling costs.",
+        "nearbyAreas": [
+          "Greenwood Village",
+          "Lone Tree",
+          "Parker"
+        ]
+      },
+      {
+        "city": "Englewood",
+        "slug": "englewood-co",
+        "state": "CO",
+        "content": "Englewood's mix of historic and modern properties makes it one of our most interesting service areas. From Broadway's commercial buildings to residential neighborhoods near the Light Rail, we understand the city's roofing landscape.\n\nThe industrial history of some Englewood areas means we occasionally encounter unique roofing situations. Our team has experience working with various roof types and can recommend appropriate solutions for even uncommon situations.",
+        "localContext": "Englewood's older homes often need complete tear-offs to address multiple layers of old roofing materials.",
+        "nearbyAreas": [
+          "Sheridan",
+          "Littleton",
+          "Denver"
+        ]
+      },
+      {
+        "city": "Golden",
+        "slug": "golden-co",
+        "state": "CO",
+        "content": "Golden's mountain views come with mountain weather patterns that challenge roofs. We design systems that handle heavy snow loads while complementing the area's rustic aesthetic.\n\nThe steep pitches common in Golden's foothills homes require specialized installation techniques. Our crews are experienced working on challenging slopes safely and efficiently. We also account for the increased UV exposure at Golden's elevation.",
+        "localContext": "Golden's mountain location means roofs need enhanced snow load capacity and durable UV-resistant materials.",
+        "nearbyAreas": [
+          "Lakewood",
+          "Arvada",
+          "Wheat Ridge"
+        ]
+      },
+      {
+        "city": "Parker",
+        "slug": "parker-co",
+        "state": "CO",
+        "content": "Parker's rapid growth has created diverse roofing needs we're proud to serve. From the historic downtown area to new developments like Canterberry Crossing, we provide solutions tailored to each neighborhood.\n\nThe open spaces around Parker mean wind is a constant factor in roof performance. We install systems with enhanced wind resistance and recommend regular inspections after storms. Our familiarity with Douglas County building codes ensures compliant installations.",
+        "localContext": "Parker's newer developments often incorporate energy-efficient roofing options that we specialize in installing.",
+        "nearbyAreas": [
+          "Castle Rock",
+          "Lone Tree",
+          "Aurora"
+        ]
+      },
+      {
+        "city": "Westminster",
+        "slug": "westminster-co",
+        "state": "CO",
+        "content": "Westminster's evolution from farmland to thriving suburb has created roofing needs spanning generations. We're equally comfortable working on original farmhouses and new construction in communities like The Bridges.\n\nThe city's northern location means roofs face slightly different weather patterns than Denver proper. We account for these variations in our material selections and installation techniques. Our team stays current with Westminster's building regulations to ensure smooth project completion.",
+        "localContext": "Westminster's climate requires special attention to ice dam prevention in roof design and ventilation.",
+        "nearbyAreas": [
+          "Broomfield",
+          "Arvada",
+          "Northglenn"
+        ]
+      },
+      {
+        "city": "Castle Rock",
+        "slug": "castle-rock-co",
+        "state": "CO",
+        "content": "Castle Rock's dramatic elevation changes create unique roofing challenges we're specially equipped to handle. From historic downtown buildings to luxury homes in The Meadows, we deliver solutions that stand up to the elements.\n\nThe area's famous winds require roofs with exceptional uplift resistance. We install systems rated for high wind speeds and pay special attention to flashing details. Our knowledge of Douglas County's building requirements ensures compliant installations.",
+        "localContext": "Castle Rock's higher elevation means roofs need enhanced wind resistance and durable materials for intense sun exposure.",
+        "nearbyAreas": [
+          "Parker",
+          "Larkspur",
+          "Sedalia"
+        ]
+      },
+      {
+        "city": "Broomfield",
+        "slug": "broomfield-co",
+        "state": "CO",
+        "content": "Broomfield's position between Denver and Boulder exposes roofs to diverse weather patterns. We design systems that perform well in both the metro area's hail storms and the foothills' heavy snows.\n\nThe city's mix of residential and commercial properties means we need to adapt our approach for each project. From Anthem Ranch's active adult community to industrial parks along US 36, we have the experience to handle Broomfield's variety.",
+        "localContext": "Broomfield's transitional climate requires roofing systems that perform well in both hail-prone and snow-heavy conditions.",
+        "nearbyAreas": [
+          "Westminster",
+          "Louisville",
+          "Superior"
+        ]
+      },
+      {
+        "city": "Commerce City",
+        "slug": "commerce-city-co",
+        "state": "CO",
+        "content": "Commerce City's industrial areas and growing residential neighborhoods present distinct roofing needs. We're experienced working with both commercial properties along I-76 and homes in new developments like Reunion.\n\nThe area's proximity to oil refineries means some roofs face unique environmental challenges. We select materials that resist chemical exposure while maintaining aesthetic appeal for residential properties. Our team understands Adams County's permitting process for efficient project completion.",
+        "localContext": "Commerce City's industrial neighbors require roofing materials that can withstand unique environmental factors.",
+        "nearbyAreas": [
+          "Thornton",
+          "Brighton",
+          "Denver"
+        ]
+      },
+      {
+        "city": "Thornton",
+        "slug": "thornton-co",
+        "state": "CO",
+        "content": "Thornton's expansion from farmland to major suburb has created roofing needs across generations. We're proud to serve both original mid-century neighborhoods and new developments like Eastlake.\n\nThe city's northern location means roofs must withstand slightly colder temperatures than Denver proper. We account for this in our material selections and installation techniques. Our familiarity with Adams County's building department ensures smooth permitting.",
+        "localContext": "Thornton's climate requires roofing systems with excellent cold weather performance and ice dam prevention.",
+        "nearbyAreas": [
+          "Northglenn",
+          "Westminster",
+          "Brighton"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "After last spring's hail storm destroyed our 20-year-old roof in Park Hill, Summit Roof Pros guided us through the entire insurance process. They installed a beautiful Class 4 shingle roof that already survived this season's storms with no damage. The crew was meticulous about cleaning up every day.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Storm Damage Repair",
+        "text": "A wind storm tore off several shingles from our Lakewood home's roof. Summit had someone out the next day to tarp the area temporarily, then scheduled permanent repairs within the week. The color match is perfect - you can't tell where the damage was.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "James and Lisa W.",
+        "rating": 5,
+        "service": "Metal Roofing",
+        "text": "We wanted a metal roof for our new build in Highlands Ranch but were concerned about noise. Summit Roof Pros explained all the insulation options and installed a standing seam roof that's actually quieter than our old asphalt one during rain storms. Beautiful and functional!",
+        "date": "2024-11-07"
+      },
+      {
+        "name": "Denver Properties LLC",
+        "rating": 5,
+        "service": "Commercial Roofing",
+        "text": "Summit Roof Pros has maintained our LoDo office building's roof for three years now. Their preventative maintenance program caught a small membrane issue before it became a major leak. Professional crew that minimizes disruption to our tenants.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Roberta C.",
+        "rating": 5,
+        "service": "Gutter Installation",
+        "text": "The new gutters Summit installed on our Capitol Hill Victorian look like they've always been there. They matched the original style perfectly while adding leaf guards that have reduced our cleaning needs dramatically. No more ice dams forming above our bedroom!",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Thomas R.",
+        "rating": 5,
+        "service": "Roof Inspection",
+        "text": "As a first-time homeowner in Aurora, I didn't know what to look for in roof condition. The Summit inspector spent an hour explaining everything, even showing me how to spot early warning signs in the attic. No pressure to sell unnecessary repairs - just honest advice.",
+        "date": "2024-06-29"
+      },
+      {
+        "name": "Nancy P.",
+        "rating": 5,
+        "service": "Shingle Repair",
+        "text": "After a tree branch damaged our roof in Littleton, Summit repaired just the affected area instead of pushing for a full replacement like another company did. The repair blends perfectly and was done in one afternoon. Will definitely call them first for any future roofing needs.",
+        "date": "2024-05-11"
+      },
+      {
+        "name": "Elite Property Management",
+        "rating": 5,
+        "service": "Commercial Roofing",
+        "text": "We manage 25+ properties across Denver and trust Summit Roof Pros for all our roofing needs. Their detailed inspection reports help us budget accurately, and they always complete work on schedule. Recently handled a complex membrane replacement at our Arvada complex flawlessly.",
+        "date": "2024-04-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Denver Roofing Company | Summit Roof Pros",
+        "description": "Trusted Denver roofing contractor specializing in hail-resistant roofs, storm damage repairs, and metal roofing installations. Locally owned since 2012."
+      },
+      "about": {
+        "title": "About Summit Roof Pros | Denver Roofers",
+        "description": "Learn about our Denver roofing company's history, values, and commitment to quality craftsmanship and community involvement."
+      },
+      "services": {
+        "title": "Roofing Services in Denver | Summit Roof Pros",
+        "description": "Complete roofing services for Denver homes including replacements, repairs, inspections, and commercial roofing solutions."
+      },
+      "contact": {
+        "title": "Contact Denver Roofing Experts | Summit Roof Pros",
+        "description": "Schedule a free roof inspection or get a quote from Denver's trusted roofing professionals. Serving all metro areas."
+      },
+      "reviews": {
+        "title": "Denver Roofing Reviews | Summit Roof Pros",
+        "description": "Read what Denver homeowners say about their experiences with Summit Roof Pros' roofing services and customer care."
+      },
+      "service-areas": {
+        "title": "Denver Metro Roofing Services | Summit Roof Pros",
+        "description": "Local roofing company serving Denver, Aurora, Lakewood, Arvada, Littleton, Highlands Ranch and surrounding areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-replacement": "/images/service-roof-replacement.webp",
+      "storm-damage-repair": "/images/service-storm-damage-repair.webp",
+      "commercial-roofing": "/images/service-commercial-roofing.webp",
+      "gutter-installation": "/images/service-gutter-installation.webp",
+      "roof-inspection": "/images/service-roof-inspection.webp",
+      "shingle-repair": "/images/service-shingle-repair.webp",
+      "metal-roofing": "/images/service-metal-roofing.webp"
+    },
+    "servicesResponsive": {
+      "roof-replacement": {
+        "src": "/images/service-roof-replacement.webp",
+        "srcset": "/images/service-roof-replacement-400w.webp 400w, /images/service-roof-replacement-800w.webp 800w, /images/service-roof-replacement-1200w.webp 1200w, /images/service-roof-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-damage-repair": {
+        "src": "/images/service-storm-damage-repair.webp",
+        "srcset": "/images/service-storm-damage-repair-400w.webp 400w, /images/service-storm-damage-repair-800w.webp 800w, /images/service-storm-damage-repair-1200w.webp 1200w, /images/service-storm-damage-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-roofing": {
+        "src": "/images/service-commercial-roofing.webp",
+        "srcset": "/images/service-commercial-roofing-400w.webp 400w, /images/service-commercial-roofing-800w.webp 800w, /images/service-commercial-roofing-1200w.webp 1200w, /images/service-commercial-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-installation": {
+        "src": "/images/service-gutter-installation.webp",
+        "srcset": "/images/service-gutter-installation-400w.webp 400w, /images/service-gutter-installation-800w.webp 800w, /images/service-gutter-installation-1200w.webp 1200w, /images/service-gutter-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-inspection": {
+        "src": "/images/service-roof-inspection.webp",
+        "srcset": "/images/service-roof-inspection-400w.webp 400w, /images/service-roof-inspection-800w.webp 800w, /images/service-roof-inspection-1200w.webp 1200w, /images/service-roof-inspection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "shingle-repair": {
+        "src": "/images/service-shingle-repair.webp",
+        "srcset": "/images/service-shingle-repair-400w.webp 400w, /images/service-shingle-repair-800w.webp 800w, /images/service-shingle-repair-1200w.webp 1200w, /images/service-shingle-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "metal-roofing": {
+        "src": "/images/service-metal-roofing.webp",
+        "srcset": "/images/service-metal-roofing-400w.webp 400w, /images/service-metal-roofing-800w.webp 800w, /images/service-metal-roofing-1200w.webp 1200w, /images/service-metal-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
